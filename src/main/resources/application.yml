@@ -1,0 +1,6 @@
+satelites:
+  coordinates: kenobi*-500,-200$skywalker*100,-100$sato*500,100
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
