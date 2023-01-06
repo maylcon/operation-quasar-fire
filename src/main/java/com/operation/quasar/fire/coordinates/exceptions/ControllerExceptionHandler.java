@@ -38,7 +38,7 @@ public class ControllerExceptionHandler {
     ErrorMessage message = new ErrorMessage(
         HttpStatus.INTERNAL_SERVER_ERROR.value(),
         new Date(),
-        ex.getMessage(),
+        "Ocurrió un error en el servicio, intente nuevamente.",
         request.getDescription(false));
     
     return new ResponseEntity<ErrorMessage>(message, HttpStatus.INTERNAL_SERVER_ERROR);

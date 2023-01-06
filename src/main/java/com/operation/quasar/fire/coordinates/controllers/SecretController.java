@@ -3,6 +3,7 @@ package com.operation.quasar.fire.coordinates.controllers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -16,8 +17,10 @@ import com.operation.quasar.fire.coordinates.dtos.SateliteUniqueDto;
 import com.operation.quasar.fire.coordinates.dtos.SateliteDto;
 import com.operation.quasar.fire.coordinates.services.IPositionService;
 
+
 @RestController
 @RequestMapping()
+@CrossOrigin(origins = "*")
 public class SecretController {
 
 	@Autowired
