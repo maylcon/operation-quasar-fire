@@ -93,5 +93,5 @@ Algunas de las librerias que se usaron para un mejor enfoque de desarrollo o ren
 
 ## Colaboración
 
-Maylcon Sanson Ramirez Saray
+Maylcon Sanson Ramirez Saray  
 Ing. Esp Ingenieria de Software
